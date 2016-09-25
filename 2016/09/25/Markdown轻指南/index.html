@@ -19,9 +19,9 @@
 </li>
 </ul>
 <blockquote>
-<p>这是引用效果</p>
-<h3 id="图片与链接">图片与链接</h3><p>Markdown是支持插入图片和链接的，这样就大大的增强了内容的丰富性，也提升的用户的体验效果。Markdown中插入图片和链接都是采用URL地址的方式。因此，要想添加本地图片，比较复杂。<br>插入图片:<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="link_label">image</span>](<span class="link_url">http://7xjjaw.com1.z0.glb.clouddn.com/hexo/Summaryword-cloud-coding-vector-1695410.jpg</span>)</span><br></pre></td></tr></table></figure></p>
+<p>这是引用效果  </p>
 </blockquote>
+<h3 id="图片与链接">图片与链接</h3><p>Markdown是支持插入图片和链接的，这样就大大的增强了内容的丰富性，也提升的用户的体验效果。Markdown中插入图片和链接都是采用URL地址的方式。因此，要想添加本地图片，比较复杂。<br>插入图片:<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="link_label">image</span>](<span class="link_url">http://7xjjaw.com1.z0.glb.clouddn.com/hexo/Summaryword-cloud-coding-vector-1695410.jpg</span>)</span><br></pre></td></tr></table></figure></p>
 <p>()的内容就是图片的地址链接。目前[]中的文字似乎不添加也是可以的<br><img src="http://7xjjaw.com1.z0.glb.clouddn.com/hexo/Summaryword-cloud-coding-vector-1695410.jpg" alt="image"><br>链接：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="link_label">豆瓣</span>](<span class="link_url">http://www.douban.com/</span>)</span><br></pre></td></tr></table></figure></p>
 <p><a href="http://www.douban.com/" target="_blank" rel="external">豆瓣</a>。是不是和插入图片的方法很像，[]中的文字就是链接的显示名称，可自己定义，()中就是链接的实际地址。<br>自动链接：<br>Markdown还有一种自动链接的方式，使用&lt;&gt;包含住URL地址即可。<br>代码格式：<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="string">http:</span><span class="comment">//www.douban.com/&gt;</span></span><br></pre></td></tr></table></figure></p>
 <p>显示效果:<br><a href="http://www.douban.com/" target="_blank" rel="external">http://www.douban.com/</a></p>
@@ -37,19 +37,9 @@
 <p>上面有条线</p>
 <h3 id="删除线">删除线</h3><p>通过在文本前后添加 ~~ 表示删除线。<br><del>这个一件已经完成的事情</del></p>
 <h3 id="换行和分段">换行和分段</h3><p>刚使用时，肯定会遇到这个问题。Markdown中使用两个空格键+一个回车键进行换行，连续两个回车，即可形成分段，是不是很简单。这里就不做演示了。</p>
-<h3 id="特殊符号显示">特殊符号显示</h3><p>看到这，你会发现很多符号都有自己的含义。但如果有时只想显示这个符号时，怎么办呢。Markdown使用的是\来帮助你。<br>代码格式：<br><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">\</span></span><br></pre></td></tr></table></figure></p>
-<p>\<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="escape">``</span><span class="escape">`</span><br><span class="line"></span>显示效果  </span><br><span class="line">\<span class="escape">``</span><span class="escape">` </span> </span><br><span class="line">\<span class="escape">``</span><span class="escape">` </span> </span><br><span class="line">Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号</span><br></pre></td></tr></table></figure></p>
-<p>\   反斜线<br>`   反引号</p>
-<ul>
-<li>星号<br>_   底线<br>{}  花括号<br>[]  方括号<br>()  括弧<h1 id="井字号">井字号</h1></li>
-</ul>
-<ul>
-<li>加号</li>
-</ul>
-<ul>
-<li>减号<br>.   英文句点<br>!   惊叹号<br>```<h4 id="相关文章链接">相关文章链接</h4></li>
-</ul>
-<ul>
+<h3 id="特殊符号显示">特殊符号显示</h3><p>看到这，你会发现很多符号都有自己的含义。但如果有时只想显示这个符号时，怎么办呢。Markdown使用的是\来帮助你。<br>代码格式：<br><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">\`</span></span><br></pre></td></tr></table></figure></p>
+<p>显示效果<br>`<br>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号<br><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">\</span>   反斜线</span><br><span class="line">`   反引号</span><br><span class="line"><span class="string">\*</span>   星号</span><br><span class="line">_   底线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  括弧</span><br><span class="line"><span class="string">\#</span>   井字号</span><br><span class="line"><span class="string">\+</span>   加号</span><br><span class="line"><span class="string">\-</span>   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   惊叹号</span><br></pre></td></tr></table></figure></p>
+<h4 id="相关文章链接">相关文章链接</h4><ul>
 <li><a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">Markdown——入门指南</a></li>
 <li><a href="http://www.jianshu.com/p/q81RER#" target="_blank" rel="external">献给写作者的 Markdown 新手指南</a></li>
 <li><a href="http://wowubuntu.com/markdown/#autolink" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a></li>
