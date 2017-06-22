@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://everxi.com/"/>
-  <updated>2017-05-11T16:12:04.322Z</updated>
+  <updated>2017-06-22T09:48:16.599Z</updated>
   <id>http://everxi.com/</id>
   
   <author>
@@ -16,13 +16,59 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>田小娥还是李沁</title>
+    <link href="http://everxi.com/2017/06/22/%E7%94%B0%E5%B0%8F%E5%A8%A5%E8%BF%98%E6%98%AF%E6%9D%8E%E6%B2%81/"/>
+    <id>http://everxi.com/2017/06/22/田小娥还是李沁/</id>
+    <published>2017-06-22T09:47:42.000Z</published>
+    <updated>2017-06-22T09:48:16.599Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近看了白鹿原，看完之后留给大家争论最多的就是田小娥了。虽然田小娥的篇幅不是最大的，但肯定就是最受偏爱的。陈忠实先生本人对其就是偏爱的  <a id="more"></a><br>《白鹿原》可能就是最近国产电视剧中评分较高的一部，加之没有其他什么剧可以看，就在网上看了一些。看了开头就能感受的出来，这至少是一部认真的，有态度的电视剧，而且当初播出也是一波三折。说是原著的很多方面在当下还是相当的敏感话题，所以注定是有着不少的改动，开播后还临时删减了一遍，好像由 85 集砍到了 77 集。《白鹿原》主要描述关中地区一个小小的原上在上个世纪动荡的 50 年发生的种种变迁。这类题材感觉可以和《平凡的世界》一起品鉴。文中的人物都有鲜明的性格特征和时代印记。娥儿姐实在是太美了，当然可能只是李沁太美了，没看过影版的，就不作比较了。剧中一幕幕的悲剧，每个人看的时候基本都会说，这是时代的悲哀。我们总是找不到一个合适的原因，或者说是我们不愿寻找。然后就轻轻松松把那顶帽子扣给了时代。可是一个时代过去后，我们常常会发现，似乎我们和上一个时代并没有什么差别，形形色色的人物都还在，白孝文还是适合从政的那批人。这个时代还是会有这个时代的田小娥，将来也会有属于我们的《白鹿原》，我们常常对时代反思，却很少对自己反思，毕竟时代是每一个人参与的结果。我们真的会容易学会心安理得的生活。沧海桑田，不变的是人性。<br>  扯了一些没用的，说说最近的事情把，上个月去了一趟桂林，之后端午回家了一趟，然后去西安考了驾照。至此折腾一番，这两天就离职了，接下来，打算在这待一阵，然后出去走走，再回家休息一下。再出发。。。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近看了白鹿原，看完之后留给大家争论最多的就是田小娥了。虽然田小娥的篇幅不是最大的，但肯定就是最受偏爱的。陈忠实先生本人对其就是偏爱的
+    
+    </summary>
+    
+    
+      <category term="说说" scheme="http://everxi.com/tags/%E8%AF%B4%E8%AF%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android源码中使用tab导航</title>
+    <link href="http://everxi.com/2017/06/22/Android%E6%BA%90%E7%A0%81%E4%B8%AD%E4%BD%BF%E7%94%A8tab%E5%AF%BC%E8%88%AA/"/>
+    <id>http://everxi.com/2017/06/22/Android源码中使用tab导航/</id>
+    <published>2017-06-22T09:35:47.000Z</published>
+    <updated>2017-06-22T09:44:40.618Z</updated>
+    
+    <content type="html"><![CDATA[<p>自己工作的环境一直是在 Android 源码中，最近发现自己负责模块中的 tab 导航，还是使用着 ActionBar 的 tab 导航,感觉这种方式并不是十分之后符合项目的定制需求，所以打算改用 TabLayout+ViewPager 的方式完成tab导航。关于两种导航，网上的资料都很详细，这里不作详细说明。主要说说源码中使用  TabLayout+ViewPager 需要注意的地方。<a id="more"></a></p>
+<h2 id="ActionBar_和_TabLayout">ActionBar 和 TabLayout</h2><p>先了解一下这两种导航的使用，通过网上的教程，应该能掌握其基本的使用。附上相关链接<br>ActionBar: <a href="http://blog.csdn.net/guolin_blog/article/details/18234477" target="_blank" rel="external">http://blog.csdn.net/guolin_blog/article/details/18234477</a><br>Tablayout: <a href="http://www.jianshu.com/p/7f79b08f5afa" target="_blank" rel="external">http://www.jianshu.com/p/7f79b08f5afa</a>  </p>
+<h2 id="Android_源码中使用_TabLayout">Android 源码中使用 TabLayout</h2><p>在源码中使用 Tablayout 时，代码和自己在Android studio开发时完全一致，但是此时编译可能会报错，（会提示找不到相关的类），这主要是 mk 文件的编写问题，没有将所需要的依赖添加至自己的模块中，所以代码中的 import 会无效。<br>解决方法：在 mk 文件中添加如下代码<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">LOCAL_RESOURCE_DIR += frameworks/support/v7/appcompat/res  <span class="comment">//v7资源包</span></span><br><span class="line">LOCAL_RESOURCE_DIR += frameworks/support/design/res   <span class="comment">//design资源包</span></span><br><span class="line"></span><br><span class="line">LOCAL_STATIC_JAVA_LIBRARIES += android-support-v7-appcompat</span><br><span class="line">LOCAL_STATIC_JAVA_LIBRARIES += android-support-design</span><br><span class="line">LOCAL_STATIC_JAVA_LIBRARIES += android-support-v4</span><br><span class="line"></span><br><span class="line">LOCAL_AAPT_FLAGS := \</span><br><span class="line">--<span class="attribute">auto</span>-add-overlay \</span><br><span class="line">--extra-packages android<span class="class">.support</span><span class="class">.v7</span><span class="class">.appcompat</span> \</span><br><span class="line">--extra-packages android<span class="class">.support</span><span class="class">.design</span></span><br></pre></td></tr></table></figure></p>
+<p>要使用design包似乎必须导入v7资源包，同时要将style中的主题换成v7资源包下的主题。</p>
+<h2 id="使用app包下的fragment">使用app包下的fragment</h2><p>前面使用的 Tablayout+viewpager+fragment 中，导入的是 v4.fragment,如果需要使用 android.app.fragment。那么需要将代码中的 v4.app.FragmentPagerAdapter 换成 v13.app.FragmentPagerAdapter。这两个 FragmentPagerAdapter 的使用方法一致，只是一个是 v4.fragment，一个是 android.app.fragment。具体使用前边的链接已经给出。使用v13包下的资源时，同时需要在 mk 文件中添加 <strong><em>LOCAL_STATIC_JAVA_LIBRARIES += android-support-v13</em></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自己工作的环境一直是在 Android 源码中，最近发现自己负责模块中的 tab 导航，还是使用着 ActionBar 的 tab 导航,感觉这种方式并不是十分之后符合项目的定制需求，所以打算改用 TabLayout+ViewPager 的方式完成tab导航。关于两种导航，网上的资料都很详细，这里不作详细说明。主要说说源码中使用  TabLayout+ViewPager 需要注意的地方。
+    
+    </summary>
+    
+    
+      <category term="android" scheme="http://everxi.com/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2017-春夏番</title>
     <link href="http://everxi.com/2017/05/12/2017-%E6%98%A5%E5%A4%8F%E7%95%AA/"/>
     <id>http://everxi.com/2017/05/12/2017-春夏番/</id>
     <published>2017-05-11T16:04:19.000Z</published>
-    <updated>2017-05-11T16:12:04.322Z</updated>
+    <updated>2017-06-22T09:45:27.767Z</updated>
     
-    <content type="html"><![CDATA[<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=157447&auto=1&height=66"></iframe><br>不知不觉2017就过了不止三分之一，还是很快的。这两天也直接就要入夏了，生活的节奏还是这么快。但是自己却在今天才写下2017的目标和最近的一些想法。（原谅自己的迟钝）<a id="more"></a></p>
+    <content type="html"><![CDATA[<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=157447&auto=0&height=66"></iframe><br>不知不觉2017就过了不止三分之一，还是很快的。这两天也直接就要入夏了，生活的节奏还是这么快。但是自己却在今天才写下2017的目标和最近的一些想法。（原谅自己的迟钝）<a id="more"></a></p>
 <h2 id="2017目标">2017目标</h2><p>先说说2017的目标吧。（立flag的时候到了）</p>
 <ul>
 <li>跑步900公里</li>
@@ -38,12 +84,14 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=157447&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;&lt;br&gt;不知不觉2017就过了不止三分之一，还是很快的。这两天也直接就要入夏了，生活的节奏还是这么快。但是自己却在今天才写下2017的目标和最近的一些想法。（原谅自己的迟钝）
+      &lt;p&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=157447&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;&lt;br&gt;不知不觉2017就过了不止三分之一，还是很快的。这两天也直接就要入夏了，生活的节奏还是这么快。但是自己却在今天才写下2017的目标和最近的一些想法。（原谅自己的迟钝）
     
     </summary>
     
       <category term="小豆和老豆" scheme="http://everxi.com/categories/%E5%B0%8F%E8%B1%86%E5%92%8C%E8%80%81%E8%B1%86/"/>
     
+    
+      <category term="说说" scheme="http://everxi.com/tags/%E8%AF%B4%E8%AF%B4/"/>
     
   </entry>
   
