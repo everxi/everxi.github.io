@@ -41,7 +41,7 @@
     <link href="http://everxi.com/2017/06/22/Android%E6%BA%90%E7%A0%81%E4%B8%AD%E4%BD%BF%E7%94%A8tab%E5%AF%BC%E8%88%AA/"/>
     <id>http://everxi.com/2017/06/22/Android源码中使用tab导航/</id>
     <published>2017-06-22T09:35:47.000Z</published>
-    <updated>2017-12-13T11:21:07.570Z</updated>
+    <updated>2017-12-13T11:26:46.416Z</updated>
     
     <content type="html"><![CDATA[<p>自己工作的环境一直是在 Android 源码中，最近发现自己负责模块中的 tab 导航，还是使用着 ActionBar 的 tab 导航,感觉这种方式并不是十分之后符合项目的定制需求，所以打算改用 TabLayout+ViewPager 的方式完成tab导航。关于两种导航，网上的资料都很详细，这里不作详细说明。主要说说源码中使用  TabLayout+ViewPager 需要注意的地方。<a id="more"></a></p>
 <h2 id="ActionBar_和_TabLayout">ActionBar 和 TabLayout</h2><p>先了解一下这两种导航的使用，通过网上的教程，应该能掌握其基本的使用。附上相关链接<br>ActionBar: <a href="http://blog.csdn.net/guolin_blog/article/details/18234477" target="_blank" rel="external">http://blog.csdn.net/guolin_blog/article/details/18234477</a><br>Tablayout: <a href="http://www.jianshu.com/p/7f79b08f5afa" target="_blank" rel="external">http://www.jianshu.com/p/7f79b08f5afa</a>  </p>
@@ -57,9 +57,9 @@
     </summary>
     
     
-      <category term="android" scheme="http://everxi.com/tags/android/"/>
+      <category term="Android" scheme="http://everxi.com/tags/Android/"/>
     
-      <category term="java" scheme="http://everxi.com/tags/java/"/>
+      <category term="Java" scheme="http://everxi.com/tags/Java/"/>
     
   </entry>
   
@@ -253,7 +253,7 @@
     <link href="http://everxi.com/2015/11/01/Summary/"/>
     <id>http://everxi.com/2015/11/01/Summary/</id>
     <published>2015-11-01T12:44:35.000Z</published>
-    <updated>2017-12-13T11:17:23.336Z</updated>
+    <updated>2017-12-13T11:25:52.119Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xjjaw.com1.z0.glb.clouddn.com/hexo/Summaryword-cloud-coding-vector-1695410.jpg" alt=""><br><a id="more"></a></p>
 <h1 id="static">static</h1><p>“static方法就是没有this的方法。在static方法内部不能调用非静态方法，反过来是可以的。而且可以在没有创建任何对象的前提下，仅仅通过类本身来调用static方法。这实际上正是static方法的主要用途。<strong>简而言之，一句话来描述就是：方便在没有创建对象的情况下来进行调用（方法/变量）。</strong></p>
@@ -364,7 +364,7 @@
     <link href="http://everxi.com/2015/06/22/%E7%AB%AF%E5%8D%88/"/>
     <id>http://everxi.com/2015/06/22/端午/</id>
     <published>2015-06-22T15:03:00.000Z</published>
-    <updated>2017-12-13T11:18:56.682Z</updated>
+    <updated>2017-12-13T11:25:41.251Z</updated>
     
     <content type="html"><![CDATA[<p>端午假期就这么结束，这个假期什么都没有做，就这样静静的待在寝室，原本是打算出去玩的，但是就没有出去的心情。现在发觉其实四五六月才是我真正的黑暗期，一切的变化都来得太快，只希望马上平复自己的内心，这阵子的跑步带来的很不错的效果。今年的端午并没有吃粽子，但有许多不理智的消费。这些天和家人朋友聊了很多。很感谢，改日定会详谈。all is well。</p>
 ]]></content>
@@ -385,7 +385,7 @@
     <link href="http://everxi.com/2015/05/31/Today/"/>
     <id>http://everxi.com/2015/05/31/Today/</id>
     <published>2015-05-31T14:42:38.000Z</published>
-    <updated>2017-12-13T11:19:39.432Z</updated>
+    <updated>2017-12-13T11:26:04.818Z</updated>
     
     <content type="html"><![CDATA[<h3 id="day">day</h3><p>早晨八点多醒来，但是并没有立马就起床，最近起来就很墨迹，感觉醒来又是很累的样子。收拾的还是很慢。然后啥也没干，一直到中午点了份外卖，实在是不想去食堂了。感觉厌食越来越严重了，而且食堂还不开空调，中午时并没有雨，丝毫不像天气预报说的那般。下午出门接了个人，顺便取了快递，虽然很热，出了不少汗，但走出去的感觉还是很好，回来打扫了一番，就看起了电影。并享用着酷乐鲜柠和魏家凉皮。至于夜色降临一直在宿舍。<a id="more"></a></p>
 <h3 id="night">night</h3><p>晚上和高导一起看了逃学威龙，还是那么好笑，给家里打了电话，感觉内心平复了好多，想的东西都不一样了，突然很想回家。下雨了，天气预报并没有说错，这两天总是阵雨的感觉，但是今天似乎更久一点的感觉。想必有不想遭了殃。晚安</p>
@@ -407,7 +407,7 @@
     <link href="http://everxi.com/2015/05/20/First/"/>
     <id>http://everxi.com/2015/05/20/First/</id>
     <published>2015-05-20T14:33:37.000Z</published>
-    <updated>2017-12-13T11:19:20.485Z</updated>
+    <updated>2017-12-13T11:25:59.506Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xjjaw.com1.z0.glb.clouddn.com/hexo/image2.jpg" alt=""><a id="more"></a><br>早晨7点40左右起的床，今天起来时感觉好晕，感觉好累，可能是最近两天有点累。但是意外的是，上课居然没有睡着，昨天上课时可是差点就呼呼大睡了(～﹃～)~zZ。第二节去上了虚拟现实，简直就是翻译，无奈我六级还没有过。不过很nice的是，并没有叫到我，可怜的刘晨成了最后一个O(∩_∩)O。中午吃完饭以后，就坐在电脑前一直陪伴着你，在忙碌了一下午之后，今晚总算看到真正初具生命的你了。晚上天阴了，听说还下雨了。现在很凉爽就是了。现在心情很不错。</p>
 <h2 id="随意">随意</h2><p>忙碌了两天，在今天总算是初期完工了，至少成果已经是可见了。内心还是有些小兴奋ヾ(o◕∀◕)ﾉヾ。自己纯属小白，只是简单套用了别人的模板，这里很感谢作者“Louis Barranqueiro”， 好像是个法国友人。感觉外面的设计就很用心。一直以来就希望有一个自己的私密空间，虽然这并没有很私密，但至少很纯净。希望以后好好在这里编织自己的dream，白日梦也好，我要在这安家咯，这就是我的小窝了，(づ￣ 3￣)づ。今天是520，所以就借助这个好日子就把这个first给出去了。</p>
