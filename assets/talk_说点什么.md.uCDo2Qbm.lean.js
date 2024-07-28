@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a2 as r}from"./chunks/framework.4SZxrD75.js";const m=JSON.parse('{"title":"说点什么","description":"","frontmatter":{},"headers":[],"relativePath":"talk/说点什么.md","filePath":"talk/说点什么.md"}'),o={name:"talk/说点什么.md"},_=r("",6),n=[_];function i(s,l,c,h,d,f){return t(),e("div",null,n)}const u=a(o,[["render",i]]);export{m as __pageData,u as default};
