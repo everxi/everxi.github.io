@@ -31,6 +31,7 @@ export default defineConfig({
           items: [
             { text: '概述', link: '/talk/' },
             { text: '云南行程', link: '/talk/云南行程' }
+            { text: 'First', link: '/talk/first' }
           ]
         }
       ],
