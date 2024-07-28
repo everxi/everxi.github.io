@@ -1,1 +1,0 @@
-import{_ as a,c as r,o as t,a2 as l}from"./chunks/framework.4SZxrD75.js";const _=JSON.parse('{"title":"云南行-木子版","description":"","frontmatter":{},"headers":[],"relativePath":"talk/云南行程.md","filePath":"talk/云南行程.md"}'),o={name:"talk/云南行程.md"},i=l("",30),e=[i];function n(s,h,d,c,u,b){return t(),r("div",null,e)}const p=a(o,[["render",n]]);export{_ as __pageData,p as default};

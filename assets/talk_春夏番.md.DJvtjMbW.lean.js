@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a2 as r}from"./chunks/framework.DOwwFb84.js";const m=JSON.parse('{"title":"2017-春夏番","description":"","frontmatter":{},"headers":[],"relativePath":"talk/春夏番.md","filePath":"talk/春夏番.md"}'),l={name:"talk/春夏番.md"},i=r("",10),o=[i];function _(n,s,h,c,d,p){return t(),e("div",null,o)}const u=a(l,[["render",_]]);export{m as __pageData,u as default};

@@ -1,1 +1,0 @@
-import{_ as a,c as l,o as i,a2 as e}from"./chunks/framework.DOwwFb84.js";const m=JSON.parse('{"title":"新年的小九九","description":"","frontmatter":{},"headers":[],"relativePath":"talk/新年的小九九.md","filePath":"talk/新年的小九九.md"}'),t={name:"talk/新年的小九九.md"},o=e("",10),r=[o];function _(n,s,c,h,d,p){return i(),l("div",null,r)}const u=a(t,[["render",_]]);export{m as __pageData,u as default};

@@ -1,1 +1,0 @@
-import{_ as a,c as t,o as e,a2 as r}from"./chunks/framework.4SZxrD75.js";const m=JSON.parse('{"title":"First","description":"","frontmatter":{},"headers":[],"relativePath":"talk/first.md","filePath":"talk/first.md"}'),i={name:"talk/first.md"},s=r("",5),o=[s];function _(n,c,l,d,h,f){return e(),t("div",null,o)}const u=a(i,[["render",_]]);export{m as __pageData,u as default};
