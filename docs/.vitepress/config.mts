@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Lonely Fish",
   description: "lonely fish",
   base: '/',
+  lastUpdated: true,
   markdown: {
     container: {
       tipLabel: '提示',
